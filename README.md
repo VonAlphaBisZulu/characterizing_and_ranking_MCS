@@ -60,8 +60,11 @@ This MATLAB function characterizes a given set of intervention strategies (IS) a
 Is a container for several variables:
 cnap:		the E. coli ijO1366 model that contains additional reactions to produce 1,4-Butanediol.
 mcs:		a set of minimal reaction cut sets that enforce strong growth coupling
+
 **D,d**:		vectors that specify which flux distributions must remain feasible 	(feasible:   **D*r* <= d**)
+
 **T,t**:		vectors that specify which flux distributions must remain infeasible 	(infeasible: **T*r <= t**)
+
 coreReacs:	A vector containing the reaction indices used to generate the Core model.
 
 4. **iJO1366-L-Methionine.mat**
@@ -69,8 +72,11 @@ coreReacs:	A vector containing the reaction indices used to generate the Core mo
 Is a container for several variables:
 cnap:		the E. coli ijO1366 model that contains additional reactions to produce L-Methionine.
 mcs:		a set of minimal reaction cut sets that enforce strong growth coupling
+
 **D,d**:		vectors that specify which flux distributions must remain feasible 	(feasible:   **D*r <= d**)
+
 **T,t**:		vectors that specify which flux distributions must remain infeasible 	(infeasible: **T*r <= t**)
+
 coreReacs:	A vector containing the reaction indices used to generate the Core model.
 
 5. **cell2csv.m**
